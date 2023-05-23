@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Форма операций</h2>
+
+<form method=post>
+  <input type="number" name="num1" placeholder="Введите число">
+  <input type="number" name="num2" placeholder="Введите число">
+  <br>
+  <input type="text" name="operation" placeholder="Введите операцию =-*/">
+  <br>
+  <input type="submit" value="Вычислить">
+</form>
+{% endblock %}
